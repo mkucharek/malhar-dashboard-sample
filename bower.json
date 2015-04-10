@@ -9,11 +9,20 @@
     "angular-resource": "^1.3.0",
     "angular-route": "^1.3.0",
     "angular-sanitize": "^1.3.0",
-    "angular-touch": "^1.3.0"
+    "angular-touch": "^1.3.0",
+    "angular-ui-sortable": "0.13.3",
+    "malhar-angular-widgets": "https://github.com/DataTorrent/malhar-angular-widgets.git#master",
+    "malhar-angular-dashboard": "https://github.com/DataTorrent/malhar-angular-dashboard.git#master"
   },
   "devDependencies": {
     "angular-mocks": "^1.3.0"
   },
   "appPath": "app",
-  "moduleName": "dashApp"
+  "moduleName": "dashApp",
+  "resolutions": {
+    "angular": "^1.3.0",
+    "bootstrap": "~3.3.1",
+    "angular-bootstrap": "0.12.x",
+    "d3": "~3.4.1"
+  }
 }
